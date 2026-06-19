@@ -1,0 +1,182 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #9D4EDD;
+    --secondary-color: #FF006E;
+    --bg-color: #F8F9FA;
+    --card-bg: #FFFFFF;
+    --text-color: #2B2D42;
+    --text-secondary: #6C757D;
+    --border-color: #E9ECEF;
+}
+
+/* Global Reset & Body */
+.stApp {
+    background-color: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    font-size: 14px;
+    /* Reduced base font size */
+}
+
+h1 {
+    font-size: 24px !important;
+    margin-bottom: 10px !important;
+}
+
+h2 {
+    font-size: 20px !important;
+    margin-bottom: 8px !important;
+}
+
+h3 {
+    font-size: 18px !important;
+    margin-bottom: 8px !important;
+}
+
+h4 {
+    font-size: 16px !important;
+    margin-bottom: 6px !important;
+}
+
+h5 {
+    font-size: 14px !important;
+    margin-bottom: 5px !important;
+    font-weight: 600;
+}
+
+/* Card Styling - Reduced Padding */
+.card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    padding: 16px;
+    /* Reduced from 24px */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+    /* Reduced margin */
+}
+
+/* Stats Cards - Compact */
+.stat-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
+}
+
+.stat-value {
+    font-size: 22px;
+    /* Reduced from 28px */
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.stat-label {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+/* Upload Area - Compact */
+.upload-container {
+    border: 2px dashed #E0E0E0;
+    border-radius: 16px;
+    padding: 30px;
+    /* Reduced from 60px */
+    text-align: center;
+    background-color: var(--card-bg);
+    transition: all 0.3s ease;
+}
+
+.upload-container:hover {
+    border-color: var(--primary-color);
+    background-color: #F8F0FF;
+}
+
+/* Feature Cards */
+.feature-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+/* Metrics Dashboard - Simplified (No Colors) */
+.metric-box-simple {
+    border-radius: 8px;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.metric-title {
+    font-size: 11px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.metric-number {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+/* Custom Table - Compact */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.custom-table th {
+    text-align: left;
+    color: var(--text-secondary);
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.custom-table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: var(--text-color);
+}
+
+/* Chips/Tags - Compact */
+.chip {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.chip.purple {
+    background: #F3E5F5;
+    color: #9C27B0;
+}
+
+.chip.green {
+    background: #E8F5E9;
+    color: #4CAF50;
+}
+
+.chip.red {
+    background: #FFEBEE;
+    color: #F44336;
+}
+
+.chip.blue {
+    background: #E3F2FD;
+    color: #2196F3;
+}
+
+/* Streamlit Button Compact */
+.stButton>button {
+    padding: 6px 16px;
+    font-size: 14px;
+}

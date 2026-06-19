@@ -1,0 +1,12 @@
+2026-03-15 18:55:39,164 - NeuroAI - INFO - Preprocessing file: data/temp\s15.dat
+2026-03-15 18:55:41,723 - NeuroAI - INFO - Generated 62 segments.
+2026-03-15 18:55:41,846 - NeuroAI - WARNING - Model checkpoint not found. Using random weights.
+2026-03-15 18:55:42,581 - NeuroAI - INFO - Prediction Complete. Emotion: 0, Focus: 0
+2026-03-15 19:02:17,388 - NeuroAI - INFO - Preprocessing file: data/temp\s16.dat
+2026-03-15 19:02:19,845 - NeuroAI - INFO - Generated 62 segments.
+2026-03-15 19:02:19,880 - NeuroAI - WARNING - Model checkpoint not found. Using random weights.
+2026-03-15 19:02:20,227 - NeuroAI - INFO - Prediction Complete. Emotion: 1, Focus: 0
+2026-03-15 19:06:42,564 - NeuroAI - INFO - Preprocessing file: data/temp\s16.dat
+2026-03-15 19:06:44,874 - NeuroAI - INFO - Generated 62 segments.
+2026-03-15 19:06:44,899 - NeuroAI - WARNING - Model checkpoint not found. Using random weights.
+2026-03-15 19:06:45,318 - NeuroAI - INFO - Prediction Complete. Emotion: 0, Focus: 0

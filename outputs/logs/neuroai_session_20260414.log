@@ -1,0 +1,4 @@
+2026-04-14 20:05:42,737 - NeuroAI - INFO - Preprocessing file: data/temp\s11.dat
+2026-04-14 20:05:45,367 - NeuroAI - INFO - Generated 62 segments.
+2026-04-14 20:05:45,516 - NeuroAI - WARNING - Model checkpoint not found. Using random weights.
+2026-04-14 20:05:46,270 - NeuroAI - INFO - Prediction Complete. Emotion: 3, Focus: 0
